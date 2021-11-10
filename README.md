@@ -1,7 +1,7 @@
 
 # CVE-2021-42286
 
-补丁后直接不允许low权限访问CLSID_CoreShellCOMServerRegistrar类
+补丁后low权限将不能实例化CLSID_CoreShellCOMServerRegistrar类
 
 ## 时间线
 7-6 提交Poc  
