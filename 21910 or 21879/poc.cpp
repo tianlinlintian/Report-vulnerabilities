@@ -29,7 +29,7 @@ int main() {
 	//DeviceIoControl(hDriver, 0x07908048, 0, 0, 0, 0, &dw, NULL);
 
    
-  ////CsvCamSetSecurityInfo
+        ////CsvCamSetSecurityInfo
 	//DeviceIoControl(hDriver, 0x78BAB74 + 0x49494+8+12, inpbuf, 0x2AC, 0, 0, &dw, NULL);
 
 
