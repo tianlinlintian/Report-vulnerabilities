@@ -13,7 +13,7 @@ int main() {
 
 	hDriver = CreateFileA("\\\\.\\GLOBALROOT\\Device\\ClusPort", GENERIC_READ | GENERIC_WRITE, 0, NULL, OPEN_EXISTING, 0, NULL);
 	if (hDriver == INVALID_HANDLE_VALUE) {
-		printf("The driver does not start or the kb4586786 patch has been applied ");
+		printf("The driver does not  ");
 		getchar();
 		return -1;
 	}
